@@ -1491,7 +1491,7 @@ local function buildGUI()
         elseif toclipboard then pcall(function() toclipboard(link) end) end
     end)
     footerBtn.MouseEnter:Connect(function()
-        footer.Text = '<font color="#8888AA">Click to copy: </font><font color="#a78bfa"><b>discord.gg/fexhub</b></font>'
+        footer.Text = '<font color="#8888AA">Click to copy: </font><font color="#a78bfa"><b>discord.gg/GBYG5awtb</b></font>'
     end)
     footerBtn.MouseLeave:Connect(function()
         footer.Text = '<font color="#8888AA">discord.gg/</font><font color="#a78bfa"><b>fexhub</b></font>'
@@ -1609,7 +1609,7 @@ local function buildGUI()
         Position = UDim2.new(0, 12, 0, 12),
         BackgroundTransparency = 1,
         Text = [[How to use:
-Fexhub, keep on this is the main system so you can use auto write, and auto-submit,
+KillerHub, keep on this is the main system so you can use auto write, and auto-submit,
 Auto-Write: When turned on, it will detect what SpyderSammy said at the top and will automatically type in the code box if your mouse or finger is hovering over the "Code Here..." box, make it as if you were actually typing a code,
 Auto-Submit: When on, it will auto submit the code after a custom amount of words its set to, by default it is set to submit after 1 word. Riddle solver, when turned on it will answer questions sammy asks, for example if he asks what the first og in the code box iwi"STRAWBERRYELEPHANT"]],
         TextColor3 = Color3.fromRGB(210, 200, 230),
