@@ -1486,7 +1486,7 @@ local function buildGUI()
         Parent = ContentFrame,
     })
     footerBtn.MouseButton1Click:Connect(function()
-        local link = "discord.gg/fexhub"
+        local link = "https://discord.gg/GBYG5awtb"
         if setclipboard then pcall(function() setclipboard(link) end)
         elseif toclipboard then pcall(function() toclipboard(link) end) end
     end)
@@ -1754,7 +1754,7 @@ do
 	local SoundService2 = game:GetService("SoundService")
 
 	local splashGui = Instance.new("ScreenGui")
-	splashGui.Name = "FexSplash"
+	splashGui.Name = "KillerSplash"
 	splashGui.ResetOnSpawn = false
 	splashGui.DisplayOrder = 999
 	splashGui.IgnoreGuiInset = true
@@ -1798,7 +1798,7 @@ do
 	titleSplash.Size = UDim2.new(1,0,0,70)
 	titleSplash.Position = UDim2.new(0,0,0,0)
 	titleSplash.BackgroundTransparency = 1
-	titleSplash.Text = "FEXHUB"
+	titleSplash.Text = "KILLERHUB"
 	titleSplash.TextColor3 = Color3.fromRGB(255,255,255)
 	titleSplash.Font = Enum.Font.GothamBlack
 	titleSplash.TextSize = 48
@@ -1825,7 +1825,7 @@ do
 	subSplash.ZIndex = 3
 
 	local fragments = {}
-	local fragTexts = {"FE","XH","UB"}
+	local fragTexts = {"KILL","ERH","UB"}
 	local fragColors = {
 		Color3.fromRGB(140,70,220),
 		Color3.fromRGB(200,100,255),
